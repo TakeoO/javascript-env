@@ -1,9 +1,6 @@
 // circle.classList.add('background-orange')
 
-
 let button = document.getElementById('button-for-circle')
-
-
 let circlePlayground = document.getElementById('circle-playground')
 let left = 0;
 
@@ -23,7 +20,6 @@ for (let index = 0; index < 11; index++) {
 }
 
 button.addEventListener('click', function (event) {
-
     let circles = document.getElementsByClassName("circle")
     for (let index = 0; index < circles.length; index++) {
         let circle = circles[index];
@@ -48,6 +44,6 @@ button.addEventListener('click', function (event) {
             console.log("3 seconds passed!")
         }, 100000)
     }
-
-
 });
+
+let test = "Nek test";
