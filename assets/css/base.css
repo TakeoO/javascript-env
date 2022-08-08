@@ -1,0 +1,13 @@
+.circle{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #f00;
+    position: absolute;
+    margin-left: 15px;
+}
+
+
+.background-orange{
+    background-color: orange;
+}
