@@ -11,13 +11,13 @@ function addCircle(left) {
     circle.style.left = left + "px"
 }
 
-for (let index = 0; index < 11; index++) {
-    if (document.getElementsByClassName("circle").length !== 0) {
-        left += 135;
-    }
-
-    addCircle(left)
-}
+// for (let index = 0; index < 11; index++) {
+//     if (document.getElementsByClassName("circle").length !== 0) {
+//         left += 135;
+//     }
+//
+//     addCircle(left)
+// }
 
 button.addEventListener('click', function (event) {
     let circles = document.getElementsByClassName("circle")
@@ -36,7 +36,7 @@ button.addEventListener('click', function (event) {
             } else {
                 addCircle(parseInt(circle.style.left))
             }
-        }, 100)
+        },  )
 
         setTimeout(function () {
             circle.classList.remove('background-orange');
@@ -46,4 +46,8 @@ button.addEventListener('click', function (event) {
     }
 });
 
-let test = "Nek test";
+
+function checkSection(sectionName){
+     let section = document.getElementById("content");
+     return sectionName in section.classList;
+}

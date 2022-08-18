@@ -10,3 +10,10 @@ class User {
         return `${this.name} ${this.surname}`;
     }
 }
+
+
+let user = new User()
+
+
+xhr = ajax
+
